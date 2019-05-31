@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MotionGame</string>
+    <string name="mg_retry_message">Do you want to retry?</string>
+    <string name="mg_yes_dialogButton">Yes</string>
+    <string name="mg_no_dialogButton">No</string>
+    <string name="mg_pause_dialogTitle">Pause</string>
+    <string name="mg_pause_dialogMessage">Do you really want to exit?</string>
+    <string name="mg_retry_score_dialogTitle">Your score is: %1$s</string>
+    <string name="mg_score_header">Score:</string>
+    <string name="mg_start_title">Catch the ball</string>
+    <string name="mg_start_startGameButton">Start game</string>
+    <string name="mg_orange_points">10 points</string>
+    <string name="mg_pink_points">30 points</string>
+    <string name="mg_rule1">1. Tilt phone left or right to move</string>
+    <string name="mg_rule2">3. Cover the light sensor to enable slow-mo</string>
+    <string name="mg_rule3">2. Avoid spikes</string>
+    <string name="mg_rules_header">Rules</string>
+    <string name="mg_tap_to_start">Tap to start!</string>
 </resources>

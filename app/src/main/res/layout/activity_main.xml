@@ -7,18 +7,17 @@
         android:layout_height="match_parent"
         tools:context=".GameActivity" android:id="@+id/wholeGameLayout">
     <TextView
-            android:text="Score:"
+            android:text="@string/mg_score_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/scoreHeaderView" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     <TextView
-            android:text="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/scoreView"
             app:layout_constraintStart_toEndOf="@+id/scoreHeaderView" android:layout_marginStart="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp" android:text="0"/>
     <FrameLayout
             android:layout_width="0dp"
             android:layout_height="0dp" android:id="@+id/gameField"
@@ -44,7 +43,7 @@
                 android:layout_height="16dp" app:srcCompat="@drawable/pink" android:id="@+id/pinkPointView"
                 android:visibility="invisible"/>
         <TextView
-                android:text="Tap to start!"
+                android:text="@string/mg_tap_to_start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/startText" android:layout_gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
